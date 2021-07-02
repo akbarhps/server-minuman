@@ -1,0 +1,22 @@
+### get all Product
+GET localhost:3000/api/products
+Accept: application/json
+
+### get product by id Product
+GET localhost:3000/api/products/60dda223c4e8ce0a7812a1c7
+Accept: application/json
+
+### edit product by id Product
+PUT localhost:3000/api/products/60dda3c32e968839d012fc30
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Example",
+  "description": "Example",
+  "price": 10
+}
+
+### delete product by id Product
+DELETE localhost:3000/api/products/60ddbb3b9c62e62fd0537157
+Accept: application/json
