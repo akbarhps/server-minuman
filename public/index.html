@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exercise Tracker | Free Code Camp</title>
+</head>
+
+<body>
+<div class="container">
+    <!--  Test input dari sini  -->
+    <h1>Exercise tracker</h1>
+    <form action="/api/products" method="post" enctype="multipart/form-data">
+        <input id="uid" type="text" name="name" value="Example">
+        <input id="desc" type="text" name="description" value="Example">
+        <input id="dur" type="number" name="price" value="10000" placeholder="duration* (mins.)">
+        <input id="dat" type="text" name="categoryId" value="60c714afe58b2a236f349acc">
+        <div>
+            <label>Select multiple images:</label>
+            <input type="file" name="images" multiple/>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+</body>
+
+</html>
